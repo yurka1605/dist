@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap';
+@import '_vars.scss';
+@import '_mixins.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: $font-main;
+    font-family: $font-weight-main;
+    font-family: 'Roboto', sans-serif;
+}
+ul li {
+    list-style-type: none;
+}
+button, input {
+    appearance: none;
+    outline: none;
+}
+button {
+    cursor: pointer;
+}

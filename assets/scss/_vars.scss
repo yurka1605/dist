@@ -1,22 +1,33 @@
 // fonts
-$font-small:                    12px;
-$font-main:                     14px;
-$font-large:                    18px;
+$font-small:                   11px;
+$font-main:                    14px;
+$font-large:                   18px;
+$icon-font-size:               $font-large;
 
 // colors
-$color-main:                  #000;
-$firm-color:                  #ccc;
-$firm-color-dark:             rgb(180, 180, 180);
-$color-white:                 #fff;
+$color-main:                 #000;
+$firm-color:                 #ccc;
+$firm-color-dark:            rgb(180, 180, 180);
+$color-white:                #fff;
+$rotate-block-color:         rgb(158, 157, 219);
+$active-item-color:          #b4b4b4;
 
 // font-weight
-$font-weight-light:              300;
-$font-weight-main:               400;
-$font-weight-bold:               600;
-$font-weight-medium:             500;
+$font-weight-light:            300;
+$font-weight-main:             400;
+$font-weight-bold:             600;
+$font-weight-medium:           500;
 
 // paddings
-$padding-width:                 16px;
+$padding-width:                16px;
 
 // sidebar
 $sidebar-width:                100px;
+
+// size
+$canvas-width:                 800px;
+$canvas-height:                600px;
+$listings-width:               100px;
+$icon-size:                    30px;
+$title-height:                 30px;
+$btn-size:                     50px;
